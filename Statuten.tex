@@ -32,8 +32,26 @@
 
 \newcommand{\comment}[1]{{\bf /*Komm.:} \textit{#1} {\bf */}}
 % comment the following line to get comments:
-% \def\comment#1{}
+\def\comment#1{}
 % Fun with slack
+\newcommand{\einen}{eine/n }
+\newcommand{\en}{e/n }
+\newcommand{\sein}{sein/e }
+\newcommand{\der}{die/der }
+\newcommand{\obmann}{Obfrau/Obmann }
+\newcommand{\secretary}{Schriftf\"uhrerIn }
+\newcommand{\kassier}{KassiererIn }
+\newcommand{\stv}{StellvertreterIn }
+\newcommand{\dieser}{diese/r }
+\newcommand{\Derobmann}{Die Obfrau/der Obmann }
+\newcommand{\Derkassier}{Die Kassererin/der Kassier }
+\newcommand{\derobmann}{die Obfrau/der Obmann }
+\newcommand{\denobmann}{die Obfrau/den Obmann }
+\newcommand{\desobmanns}{der Obfrau/des Obmanns }
+\newcommand{\dersecretary}{die Schriftf\"uhrerin/der Schriftf\"uhrer }
+\newcommand{\Dersecretary}{Die Schriftf\"uhrerin/der Schriftf\"uhrer }
+\newcommand{\dessecretary}{der Schriftf\"uhrerin/des Schriftf\"uhrers }
+\newcommand{\deskassiers}{der Kassiererin/des Kassiers }
 
 \newenvironment{Itemize}{%
   \begin{itemize}\setlength{\parsep}{\parskip}\setlength{\itemsep}{0pt}%
@@ -58,7 +76,7 @@
 \section{Name, Sitz und Tätigkeitsbereich} % § 1
 \label{sec:Name}
 \begin{enumerate}
-\item Der Verein führt den Namen "Game Development Graz - Verein zur F\"orderung der Spielentwicklung und Spielkultur" kurz: Game Dev Graz.
+\item Der Verein führt den Namen "Game Development Graz - Verein zur F\"orderung der Spielentwicklung und Spielkultur", kurz: Game Dev Graz.
 
 \item Er hat seinen Sitz in Graz und erstreckt seine Tätigkeit auf das Gebiet des Bundeslandes Steiermark.
 
@@ -70,22 +88,20 @@
 \comment{Anmerkung: Punkte 1, 2, 3 sind hier Varianten des selben Inhalts ('Zweck')}
 \begin{enumerate}
 
-\item Der Verein, dessen Tätigkeit nicht auf Gewinn gerichtet ist, bezweckt:
-Die Förderung des Austausches und der Wissensweitergabe zu Themen der Spieleentwicklung im Umfeld der lokalen Entwickler-Gemeinschaft.
-
-Das Anbieten von Experimentierfeldern und Möglichkeiten zum Diskurs zur Auslotung verschiedener Formen, Strömungen und Möglichkeiten des Mediums Spiel; bezogen auf technische, künstlerisch-gestalterische, oder soziale und gesellschaftliche Belange. \comment{hier noch mehr?}
+\item \comment{Der Verein, dessen Tätigkeit nicht auf Gewinn gerichtet ist, bezweckt:
+Die Förderung des Austausches und der Wissensweitergabe zu Themen der Spieleentwicklung im Umfeld der lokalen Entwickler-Gemeinschaft.}
+\comment{Das Anbieten von Experimentierfeldern und Möglichkeiten zum Diskurs zur Auslotung verschiedener Formen, Strömungen und Möglichkeiten des Mediums Spiel; bezogen auf technische, künstlerisch-gestalterische, oder soziale und gesellschaftliche Belange.} \comment{hier noch mehr?}
 
 \item Der Verein, dessen T\"atigkeit nicht auf Gewinn gerichtet ist, bezweckt:
-
 Die lokale Spielentwicklerszene zu fördern und zu stärken, sowie die Kunstform Videospiel weiterzuentwickeln.
 Ein Hauptaugenmerk liegt auf der Weitergabe von Wissen und Information zur Gestaltung, Entwicklung und Vermarktung von Spielen. Dies wird durch Abhaltung von Veranstaltungen wie Workshops,
 Schulungen und Vorträgen, gerichtet an sowohl bestehende Entwicklerkreise (Vernetzung) als auch an erweiterte Personenkreise (Verbreitung), erreicht.
 Des Weitere bietet der Verein Experimentierfelder und Diskursmöglichkeiten zur Auslotung verschiedener Formen, Strömungen und Möglichkeiten des Mediums Spiel auf technischer, künstlerisch-gestalterischer, sozialer und gesellschaftlicher Ebene.
 
-\item Das Ziel des Vereines ist es die lokale Spielentwicklerszene zu fördern und zu stärken, sowie die Kunstform Videospiel weiterzuentwickeln. Dieses Ziel wird vom Verein ohne Ausrichtung auf Gewinn verfolgt.
-Ein Hauptaugenmerk liegt auf der Weitergabe von Wissen und Information zur Gestaltung, Entwicklung und Vermarktung von Spielen. Dies wird durch Abhaltung von Veranstaltungen wie Workshops,
+\item Das Ziel des Vereines ist es, die lokale Spielentwicklerszene zu fördern und zu stärken, sowie die Kunstform Videospiel weiterzuentwickeln. Dieses Ziel wird vom Verein ohne Ausrichtung auf Gewinn verfolgt.
+Das Hauptaugenmerk liegt auf der Weitergabe von Wissen und Information zur Gestaltung, Entwicklung und Vermarktung von Spielen. Dies wird durch Abhaltung von Veranstaltungen wie Workshops,
 Schulungen und Vorträgen, gerichtet an sowohl bestehende Entwicklerkreise (Vernetzung) als auch an erweiterte Personenkreise (Verbreitung), erreicht.
-Des Weitere bietet der Verein Experimentierfelder und Diskursmöglichkeiten zur Auslotung verschiedener Formen, Strömungen und Möglichkeiten des Mediums Spiel auf technischer, künstlerisch-gestalterischer, sozialer und gesellschaftlicher Ebene.
+Des Weiteren bietet der Verein Experimentierfelder und Diskursmöglichkeiten zur Auslotung verschiedener Formen, Strömungen und Möglichkeiten des Mediums Spiel auf technischer, künstlerisch-gestalterischer, sozialer und gesellschaftlicher Ebene.
 
 \end{enumerate}
 
@@ -97,27 +113,30 @@ Des Weitere bietet der Verein Experimentierfelder und Diskursmöglichkeiten zur 
 \item\label{item:zweck-ideelle-mittel} Als ideelle Mittel dienen:
 \comment{hier noch wording/items überarbeiten?}
 \begin{enumerate}[(a)]
-\item Regelmäßige Treffen und Zusammenkünfte \comment{Wo ist der Unterschied?}
-\item VarA: Vortragsveranstaltungen und Versammlungen, Diskussionsabende
-\item VarB: Organisation von Veranstaltungen und Konferenzen zur Abhaltung von Vorträgen, Schulungen, Diskussionen und Weiterbildungsveranstaltungen;
-\item VarA: Betrieb einer Webseite und "offentliche Auftritte
-\item VarB: Betrieb und Bereitstellung von technischer Infrastruktur (Website, Mailinglisten etc.) zur Kommunikation zwischen Vereinsmitgliedern untereinander und der allgemeinen Öffentlichkeit;
-\item Veröffentlichung von Broschüren, Informationsblättern, Flyern oder elektronischen Publikationen
+\item Regelmäßige Treffen \comment{und Zusammenkünfte \comment{Wo ist der Unterschied?}}
+\item \comment{VarA: Vortragsveranstaltungen und Versammlungen, Diskussionsabende}
+\item Veranstaltungen und Konferenzen zur Abhaltung von Vorträgen, Schulungen, Diskussionen und Weiterbildungsveranstaltungen
+\item Betrieb einer Webseite und \"offentliche Auftritte
+\item \comment{VarB: Betrieb und Bereitstellung von technischer Infrastruktur (Website, Mailinglisten etc.) zur Kommunikation zwischen Vereinsmitgliedern untereinander und der allgemeinen Öffentlichkeit;}
+\item \comment{Veröffentlichung von Broschüren, Informationsblättern, Flyern oder elektronischen Publikationen}
+\item Aufkl\"arung der Allgemeinheit \"uber das Medium Spiel
 
 \end{enumerate}
 \item\label{item:zweck-materielle-mittel} Die erforderlichen materiellen Mittel sollen aufgebracht werden durch:
 \comment{hier noch wording/items überarbeiten?}
+\comment{
 \begin{enumerate}[(a)]
 \item Sponsoringvereinbarungen (Werbung im Rahmen von Vereinsveranstaltungen)
 \item Erträgen aus Veranstaltungen, vereinseigenen Unternehmungen
 \item Spenden, Sammlungen, Vermächtnisse und sonstige Zuwendungen
 \item Förderungen und Subventionen
+}
 
 \begin{enumerate}[(a)]
-\item Spenden, Sammlungen, Vermächtnisse, öffentliche Förderungen und sonstige Zuwendungen;
-\item Sponsoring-Vereinbarungen (Werbung im Rahmen von Vereinsveranstaltungen);
-\item Verkauf von Werbematerial und Merchandise;
-\item Erträge aus Veranstaltungen und vereinseigenen Unternehmungen;
+\item Spenden, Sammlungen, Vermächtnisse, öffentliche Förderungen und sonstige Zuwendungen
+\item Sponsoring-Vereinbarungen
+\item Verkauf von Werbematerial und Merchandise
+\item Erträge aus Veranstaltungen und vereinseigenen Unternehmungen
 \end{enumerate}
 
 \end{enumerate}
@@ -129,49 +148,50 @@ Des Weitere bietet der Verein Experimentierfelder und Diskursmöglichkeiten zur 
 \begin{enumerate}
 \item Die Mitglieder des Vereins gliedern sich in ordentliche, außerordentliche und Ehrenmitglieder.
 
-\item VarA: Ordentliche Mitglieder sind jene, die sich voll an der Vereinsarbeit beteiligen. Außerordentliche Mitglieder sind solche, die unterstützend in der Vereinsarbeit mitwirken. Ehrenmitglieder sind Personen, die hiezu wegen besonderer Verdienste um den Verein ernannt werden.
+\item Ordentliche Mitglieder sind jene, die sich voll an der Vereinsarbeit beteiligen.
+Außerordentliche Mitglieder sind solche, die unterstützend in der Vereinsarbeit mitwirken. Ehrenmitglieder sind Personen, die hiezu wegen besonderer Verdienste um den Verein ernannt werden.
 
-\item VarB: Ordentliche Mitglieder sind jene, die sich voll an der Vereinsarbeit beteiligen.
+\comment{\item VarB: Ordentliche Mitglieder sind jene, die sich voll an der Vereinsarbeit beteiligen.
 Außerordentliche Mitglieder sind solche, die die Vereinstätigkeit vor allem durch Zahlung eines erhöhten Mitgliedsbeitrags fördern.
 \comment{Marco: Zu spezifisch imo}
 \comment{War vorher:Außerordentliche Mitglieder sind solche, die unterstützend in der Vereinsarbeit mitwirken.}
-Ehrenmitglieder sind Personen, die hierzu wegen besonderer Verdienste um den Verein ernannt werden.
+Ehrenmitglieder sind Personen, die hierzu wegen besonderer Verdienste um den Verein ernannt werden.}
 \end{enumerate}
 
 \section{Erwerb der Mitgliedschaft} % § 5
 VarA
 \begin{enumerate}
-\item Mitglieder des Vereins können alle physischen und juristische Personen, sowie rechtsfähige Personengesellschaften werden
-\item Über die Aufnahme von ordentlichen Mitgliedern entscheiden der Vorstand und die ordentlichen Mitglieder. Die Aufnahme kann ohne Angabe von Gründen verweigert werden. Über die Aufnahme
-von außerordentlichen Mitgklieder entscheidet der Vorstand. Als ordentliches Mitglied kann
-nur aufgenommem werden, wer Unterst"utzung von 50\% der ordentlichen Mitglieder hat.
+\item Mitglieder des Vereins können alle physischen Personen, die das Mindestbeitrittalter von 16 Jahren erreicht haben, und juristische Personen, sowie rechtsfähige Personengesellschaften werden.
+\item Über die Aufnahme von ordentlichen und au\"serordentlichen Mitgliedern entscheiden der Vorstand. Die Aufnahme kann ohne Angabe von Gründen verweigert werden.
 \item Die Ernennung zum Ehrenmitglied erfolgt auf Antrag des Vorstandes durch die Generalversammlung.
 \item Vor Konstituierung des Vereins erfolgt die vorläufige Aufnahme von Mitgliedern durch den / die Proponenten. Diese Mitgliedschaft wird erst mit Konstituierung des Vereins wirksam.
 \end{enumerate}
 
+\comment{
 VarB
 \begin{enumerate}
 \item Mitglieder des Vereins können alle physischen Personen
 \comment{,die das Mindestbeitrittalter von 16 Jahren erreicht haben,}
 sowie juristische Personen und rechtsfähige Personengesellschaften werden
 
-\item Über die Aufnahme von ordentlichen und außerordentlichen Mitgliedern entscheidet der Vorstand. Die Aufnahme kann ohne Angabe von Gründen verweigert werden. 
+\item Über die Aufnahme von ordentlichen und außerordentlichen Mitgliedern entscheidet der Vorstand. Die Aufnahme kann ohne Angabe von Gründen verweigert werden.
 
 \item Bis zur Entstehung des Vereins erfolgt die vorläufige Aufnahme von ordentlichen und außerordentlichen Mitgliedern durch die Vereinsgründer, im Fall eines bereits bestellten Vorstands durch diesen. Diese Mitgliedschaft wird erst mit Entstehung des Vereins wirksam.
 
 \item  Die Ernennung zum Ehrenmitglied erfolgt auf Antrag des Vorstandes durch die Generalversammlung.
 
 \end{enumerate}
+}
 
 \section{Beendigung der Mitgliedschaft} % § 6
 \begin{enumerate}
-\item Die Mitgliedschaft erlischt durch Tod, bei juristischen Personen und rechtsfähigen Personengesellschaften durch Verlust der Rechtspersönlichkeit, durch freiwilligen Austritt und durch Ausschluss.
+\item Die Mitgliedschaft erlischt durch Tod, bei juristischen Personen und rechtsfähigen Personengesellschaften durch Verlust der Rechtspersönlichkeit, durch freiwilligen Austritt oder durch Ausschluss.
 
 \item Der Austritt kann nur am Ersten eines Monats erfolgen. Er muss dem Vorstand mindestens 1 Monat vorher schriftlich mitgeteilt werden. Erfolgt die Anzeige verspätet, so ist sie erst zum nächsten Austrittstermin wirksam. Für die Rechtzeitigkeit ist das Datum der Postaufgabe maßgeblich.
 \comment{Oder simpler: "Der Austritt kann jederzeit erfolgen. Er muss dem Vorstand schriftlich mitgeteilt werden." }
 
 \item Der Ausschluss eines Mitglieds aus dem Verein kann vom Vorstand wegen grober Verletzung von Mitgliedspflichten und wegen unehrenhaften Verhaltens verfügt werden.
-\item Die Aberkennung der Ehrenmitgliedschaft kann aus den im Abs. 3 genannten Gründen von der Generalversammlung über Antrag des Vorstands beschlossen werden
+\item Die Aberkennung der Ehrenmitgliedschaft kann aus den im Abs. 3 genannten Gründen von der Generalversammlung über Antrag des Vorstands beschlossen werden.
 
 \item \comment{Falls doch Mitgliedsbeiträge bzw. Beiträge von ausserordentlichen : "Der Vorstand kann ein Mitglied ausschließen, wenn dieses trotz zweimaliger schriftlicher Mahnung unter Setzung einer angemessenen Nachfrist länger als sechs Monate mit der Zahlung der Mitgliedsbeiträge im Rückstand ist. Die Verpflichtung zur Zahlung der fällig gewordenen Mitgliedsbeiträge bleibt hievon unberührt."}
 
@@ -191,7 +211,7 @@ sowie juristische Personen und rechtsfähige Personengesellschaften werden
 
 \section{Vereinsorgane} % § 8
 \begin{enumerate}
-\item Organe des Vereins sind die Generalversammlung (§§ 9 und 10), der Vorstand (§§ 11 bis 13), die Rechnungsprüfer (§ 14) und das Schiedsgericht (§ 15).
+\item Organe des Vereins sind die Generalversammlung (§§ 9 und 10), der Vorstand (§§ 11 bis 13), die RechnungsprüferInnen (§ 14) und das Schiedsgericht (§ 15).
 \end{enumerate}
 
 \section{Generalversammlung} % § 9
@@ -200,8 +220,8 @@ sowie juristische Personen und rechtsfähige Personengesellschaften werden
 \item Die Generalversammlung ist die „Mitgliederversammlung“ im Sinne des Vereinsgesetzes 2002. Eine ordentliche Generalversammlung findet jährlich statt.
 \item Eine außerordentliche Generalversammlung findet auf Beschluss des Vorstandes, der ordentlichen Generalversammlung oder
 auf schriftlichen begründeten Antrag von mindestens einem F"unftel der stimmberechtigten (§ \ref{sec:rechte-und-pflichten} Abs. \ref{item:mitglieder-stimmrecht} und § \ref{sec:generalversammlung} Abs. \ref{item:gv-stimmrecht}) Mitglieder
-oder auf Verlangen der Rechnungsprüfer, oder 
-Beschluss der/eines Rechnungsprüfer/s (§ 21 Abs. 5 zweiter Satz VereinsG, § 11 Abs. 2 dritter Satz dieser Statuten), oder Beschluss eines gerichtlich bestellten Kurators (§ 11 Abs. 2 letzter Satz dieser Statuten)
+oder auf Verlangen der RechnungsprüferInnen, oder
+Beschluss von mindestens einer Rechnungspr\"uferin oder eines Rechnungspr\"fers (§ 21 Abs. 5 zweiter Satz VereinsG, § 11 Abs. 2 dritter Satz dieser Statuten), oder Beschluss eines gerichtlich bestellten Kurators (§ 11 Abs. 2 letzter Satz dieser Statuten)
 binnen vier Wochen statt. \comment{die 2 zusätzlichen Möglichkeiten wie BMI orig. dabei}
 \item Sowohl zu den ordentlichen wie auch zu den außerordentlichen Generalversammlungen sind alle Mitglieder mindestens zwei Wochen vor dem Termin schriftlich einzuladen. Die Anberaumung der Generalversammlung hat unter Angabe der Tagesordnung zu erfolgen. Die Einberufung erfolgt durch den Vorstand.
 \comment{... oder durch die/einen Rechnungsprüfer (Abs. 2 lit. d) oder durch einen gerichtlich bestellten Kurator (Abs. 2 lit. e) ...}.
@@ -213,7 +233,7 @@ binnen vier Wochen statt. \comment{die 2 zusätzlichen Möglichkeiten wie BMI or
 \item \label{item:gv-stimmrecht} Bei der Generalversammlung sind alle Mitglieder teilnahmeberechtigt.
 Stimmberechtigt sind nur die ordentlichen Mitglieder.
 Jedes Mitglied hat eine Stimme.
-Juristische Personen werden durch einen Bevollmächtigten vertreten.
+Juristische Personen werden durch \einen Bevollmächtigt\en vertreten.
 Die Übertragung des Stimmrechtes auf ein anderes Mitglied im Wege einer schriftlichen oder elektronisch unterzeichneten fernschriftlichen Bevollmächtigung ist zulässig.
 
 \item Die Generalversammlung ist bei Anwesenheit der Hälfte aller stimmberechtigten Mitglieder bzw. ihrer Vertreter (Abs. 6) beschlussfähig.
@@ -223,7 +243,7 @@ die beschlussfähig ist, wenn mindestens drei stimmberechtigte Mitglieder anwese
 \item Die Wahlen und die Beschlussfassungen in der Generalversammlung erfolgen in der Regel mit einfacher Stimmenmehrheit. Beschlüsse, mit denen das Statut des Vereins geändert oder der Verein aufgelöst werden soll, bedürfen jedoch einer qualifizierten Mehrheit von zwei Dritteln der abgegebenen gültigen Stimmen.
 \comment{Hier geht es um Mehrheit bei Entscheidungen in der Generalversammlung}
 
-\item Den Vorsitz in der Generalversammlung führt der Obmann, in dessen Verhinderung sein Stellvertreter. Wenn auch dieser verhindert ist, so führt das Vorstandsmitglied, welches am längsten im Verein Mitglied ist, bei Gleichheit das in Jahren älteste anwesende Vorstandsmitglied den Vorsitz.
+\item Den Vorsitz in der Generalversammlung führt \der \obmann, in dessen Verhinderung \sein \stv. Wenn auch \dieser verhindert ist, so führt das Vorstandsmitglied, welches am längsten im Verein Mitglied ist, bei Gleichheit das in Jahren älteste anwesende Vorstandsmitglied den Vorsitz.
 
 \end{enumerate}
 
@@ -231,22 +251,22 @@ die beschlussfähig ist, wenn mindestens drei stimmberechtigte Mitglieder anwese
 \begin{enumerate}
 \item Der Generalversammlung sind folgende Aufgaben vorbehalten:
 	\begin{enumerate}[(a)]
-	\item Entgegennahme und Genehmigung des Rechenschaftsberichtes und des Rechnungsabschlusses \comment{orig.: " ... unter Einbindung der Rechnungsprüfer;"};
-	\item Beschlussfassung über den Voranschlag;
-	\item Wahl, Bestellung und Enthebung der Mitglieder des Vorstandes und der Rechnungsprüfer;
-	\item Genehmigung von Rechtsgeschäften zwischen Vorstandsmitgliedern und Rechnungsprüfern mit dem Verein;
+	\item Entgegennahme und Genehmigung des Rechenschaftsberichtes und des Rechnungsabschlusses unter Einbindung der Rechnungsprüfer
+	\item Beschlussfassung über den Voranschlag
+	\item Wahl, Bestellung und Enthebung der Mitglieder des Vorstandes und der Rechnungsprüfer
+	\item Genehmigung von Rechtsgeschäften zwischen Vorstandsmitgliedern und Rechnungsprüfern mit dem Verein
 	\item \comment{Falls MGB: "Festsetzung der Höhe der Beitrittsgebühr und der Mitgliedsbeiträge für ordentliche und für außerordentliche Mitglieder;"}
-	\item Entlastung des Vorstandes;
-	\item Verleihung und Aberkennung der Ehrenmitgliedschaft;
-	\item Beschlussfassung über Statutenänderungen und die freiwillige Auflösung des Vereines;
-	\item Beratung und Beschlussfassung über sonstige auf der Tagesordnung stehende Fragen.
+	\item Entlastung des Vorstandes
+	\item Verleihung und Aberkennung der Ehrenmitgliedschaft
+	\item Beschlussfassung über Statutenänderungen und die freiwillige Auflösung des Vereines
+	\item Beratung und Beschlussfassung über sonstige auf der Tagesordnung stehende Fragen
 	\end{enumerate}
 \end{enumerate}
 
 \section{Vorstand} % § 11
 \begin{enumerate}
 
-\item Der Vorstand besteht aus sechs Mitgliedern, und zwar aus Obmann/Obfrau und Stellvertreter/in, Schriftführer/in und Stellvertreter/in sowie Kassier/in und Stellvertreter/in.
+\item Der Vorstand besteht aus sechs Mitgliedern, und zwar aus \obmann und \stv, \secretary und \stv sowie \kassier und \stv.
 \item Der Vorstand wird von der Generalversammlung gewählt.
 Der Vorstand hat bei Ausscheiden eines gewählten Mitglieds das Recht, an seine Stelle ein anderes wählbares Mitglied zu kooptieren, wozu die nachträgliche Genehmigung in der nächstfolgenden Generalversammlung einzuholen ist.
 Fällt der Vorstand ohne Selbstergänzung durch Kooptierung überhaupt oder auf unvorhersehbar lange Zeit aus, so ist jeder Rechnungsprüfer verpflichtet, unverzüglich eine außerordentliche Generalversammlung zum Zweck der Neuwahl eines Vorstands einzuberufen.
@@ -255,7 +275,7 @@ Sollten auch die Rechnungsprüfer handlungsunfähig sein, hat jedes ordentliche 
 \item \label{item:funktionsperiode} Die Funktionsperiode des Vorstands beträgt ein Jahr; Wiederwahl ist möglich.
 Jede Funktion im Vorstand ist persönlich auszuüben.
 
-\item Der Vorstand wird vom Obmann/von der Obfrau, bei Verhinderung von seinem/seiner/ihrem/ihrer Stellvertreter/in, schriftlich oder mündlich einberufen. Ist auch diese/r auf unvorhersehbar lange Zeit verhindert, darf jedes sonstige Vorstandsmitglied den Vorstand einberufen.
+\item Der Vorstand wird vom Obmann/von der Obfrau, bei Verhinderung von seinem/seiner/ihrem/ihrer \stv, schriftlich oder mündlich einberufen. Ist auch \dieser auf unvorhersehbar lange Zeit verhindert, darf jedes sonstige Vorstandsmitglied den Vorstand einberufen.
 \comment{Das bezieht sich auf regelmässige Arbeits- und Beschluss-treffen, bei denen der Verein (micro)gemanaged wird}
 
 \item Der Vorstand ist beschlussfähig, wenn alle seine Mitglieder eingeladen wurden und mindestens die Hälfte von ihnen anwesend ist.
@@ -264,7 +284,7 @@ Jede Funktion im Vorstand ist persönlich auszuüben.
 
 \comment{Entscheidungsfindung : Dieser (und letzter) Punkt: wie werden also day-to-day Entscheidungen getroffen }
 
-\item Den Vorsitz führt der Obmann, bei Verhinderung sein Stellvertreter.
+\item Den Vorsitz führt \der \obmann, bei Verhinderung sein Stellvertreter.
 Ist auch dieser verhindert, obliegt der Vorsitz
 jenem Vorstandsmitglied, das die übrigen Vorstandsmitglieder mehrheitlich dazu bestimmen, bei Gleichstand
 dem Mitglied mit der an Jahren längsten Mitgliedschaft im Verein, bei Gleichheit dem ältesten anwesenden Vorstandsmitglied. \comment{Synthese aus bisherigen Varianten: als erstes zählt Wahl, dann länge Mitgliedschaft, dann Alter}
@@ -279,7 +299,7 @@ dem Mitglied mit der an Jahren längsten Mitgliedschaft im Verein, bei Gleichhei
 \item Dem Vorstand obliegt die Leitung des Vereines. Er ist das „Leitungsorgan“ im Sinne des Vereinsgesetzes 2002. Ihm kommen alle Aufgaben zu, die nicht durch die Statuten einem anderen Vereinsorgan zugewiesen sind. In seinen Wirkungsbereich fallen insbesondere folgende Angelegenheiten:
 \comment{Änderungen : weitgehend Anpassungen an BMI orig. Vorlage}
 	\begin{enumerate}[(a)]
-	\item Aus dem BMI orig. : Einrichtung eines den Anforderungen des Vereins entsprechenden Rechnungswesens mit laufender Aufzeichnung der Einnahmen/Ausgaben und Führung eines Vermögensverzeichnisses als Mindesterfordernis;
+	\item Einrichtung eines den Anforderungen des Vereins entsprechenden Rechnungswesens mit laufender Aufzeichnung der Einnahmen/Ausgaben und Führung eines Vermögensverzeichnisses als Mindesterfordernis;
 	\item Erstellung des Jahresvoranschlages sowie Abfassung des Rechenschaftsberichtes und des Rechnungsabschlusses;
 	\item Vorbereitung der Generalversammlung;
 	\item Einberufung der ordentlichen und der außerordentlichen Generalversammlung;
@@ -294,40 +314,40 @@ dem Mitglied mit der an Jahren längsten Mitgliedschaft im Verein, bei Gleichhei
 \comment{ Dieser Abschnitt enthält Zeichnungsberechtigungen, explizite Aufgaben und Berechtigungen der Vorstandsmitglieder usw... }
 
 \begin{enumerate}
-\item Der Obmann führt die laufenden Geschäfte des Vereins. Der Schriftführer unterstützt den Obmann bei der Führung der Vereinsgeschäfte.
-\item \label{item:vertreten} Der Obmann vertritt den Verein nach außen.
-Schriftliche Ausfertigungen des Vereins bedürfen zu ihrer Gültigkeit der Unterschriften des Obmanns und des Schriftführers, in Geldangelegenheiten (=vermögenswerte Dispositionen) des Obmanns und des Kassiers.
+\item \Derobmann führt die laufenden Geschäfte des Vereins. \dersecretary unterstützt \denobmann bei der Führung der Vereinsgeschäfte.
+\item \label{item:vertreten} \Derobmann vertritt den Verein nach außen.
+Schriftliche Ausfertigungen des Vereins bedürfen zu ihrer Gültigkeit der Unterschriften \desobmanns und \dessecretary, in Geldangelegenheiten (=vermögenswerte Dispositionen) \desobmanns und \deskassiers.
 Rechtsgeschäfte zwischen Vorstandsmitgliedern und dem Verein bedürfen zu ihrer Gültigkeit außerdem der Genehmigung eines anderen Vorstandsmitglieds. \comment{wieder BMI orig., statt 'der Genehmg. d. GV'}
 
 \item Rechtsgeschäftliche Bevollmächtigungen, den Verein nach außen zu vertreten bzw. für ihn zu zeichnen, können ausschließlich von den in Abs. \ref{item:vertreten} genannten Funktionären erteilt werden. Eine elektronisch unterzeichnete fernschriftliche Vollmacht ist zulässig.
 \comment{Linuxtage haben hier zusätzlich : "Eine elektronisch unterzeichnete fernschriftliche Vollmacht ist zulässig." }
 
-\item Bei Gefahr im Verzug ist der Obmann berechtigt, auch in Angelegenheiten, die in den Wirkungsbereich der Generalversammlung oder des Vorstandes fallen, unter eigener Verantwortung selbständig Anordnungen zu treffen; diese bedürfen jedoch der nachträglichen Genehmigung durch das zuständige Vereinsorgan.
+\item Bei Gefahr im Verzug ist \derobmann berechtigt, auch in Angelegenheiten, die in den Wirkungsbereich der Generalversammlung oder des Vorstandes fallen, unter eigener Verantwortung selbständig Anordnungen zu treffen; diese bedürfen jedoch der nachträglichen Genehmigung durch das zuständige Vereinsorgan.
 
-\item Der Obmann führt den Vorsitz in der Generalversammlung und im Vorstand.
+\item \Derobmann führt den Vorsitz in der Generalversammlung und im Vorstand.
 
-\item Der Schriftführer führt die Protokolle der Generalversammlung und des Vorstands.
-\item Der Schriftführer hat den Obmann bei der Führung der Vereinsgeschäfte zu unterstützen.
+\item \Dersecretary führt die Protokolle der Generalversammlung und des Vorstands.
+\item \Dersecretary hat \denobmann bei der Führung der Vereinsgeschäfte zu unterstützen.
 \comment{zweiter Punkt hier ("..unterstützen") ist zusätzlich zum Orig. BMI Text, steht aber sowieso schon oben in Pkt 1 §13}
 
-\item Der Kassier ist für die ordnungsgemäße Geldgebarung des Vereines verantwortlich.
+\item \Derkassier ist für die ordnungsgemäße Geldgebarung des Vereines verantwortlich.
 
-\item Im Falle der Verhinderung treten an die Stelle des Obmannes, des Schriftführers und des Kassiers ihre Stellvertreter.
+\item Im Falle der Verhinderung treten an die Stelle \desobmanns, \dessecretary und \deskassiers ihre \stv.
 
 \end{enumerate}
 
 \section{Rechnungsprüfer} % § 14
 \begin{enumerate}
-\item Zwei Rechnungsprüfer werden von der Generalversammlung auf die Dauer von einem Jahr gewählt. Wiederwahl ist möglich. Die
-Rechnungsprüferinnen/Rechnungsprüfer dürfen keinem Organ - mit Ausnahme
+\item Zwei RechnungsprüferInnen werden von der Generalversammlung auf die Dauer von einem Jahr gewählt. Wiederwahl ist möglich. Die
+RechnungsprüferInnen dürfen keinem Organ - mit Ausnahme
 der Generalversammlung - angehören, dessen Tätigkeit Gegenstand der
 Prüfung ist.
 \comment{Änderung: Prüfer jetzt wie Vorstand auf 1 Jahr}
 
-\item Den Rechnungsprüfern obliegt die laufende Geschäftskontrolle und die Überprüfung des Rechnungsabschlusses. Sie haben der Generalversammlung über das Ergebnis der Überprüfung zu berichten.
+\item Den RechnungsprüfernInnen obliegt die laufende Geschäftskontrolle und die Überprüfung des Rechnungsabschlusses. Sie haben der Generalversammlung über das Ergebnis der Überprüfung zu berichten.
 \comment{Orig. Vorlage: "Den Rechnungsprüfern obliegt die laufende Geschäftskontrolle sowie die Prüfung der Finanzgebarung des Vereins im Hinblick auf die Ordnungsmäßigkeit der Rechnungslegung und die statutengemäße Verwendung der Mittel. Der Vorstand hat den Rechnungsprüfern die erforderlichen Unterlagen vorzulegen und die erforderlichen Auskünfte zu erteilen. Die Rechnungsprüfer haben dem Vorstand über das Ergebnis der Prüfung zu berichten."}
 
-\item Im Übrigen gelten für die Rechnungsprüfer die Bestimmungen des § 11 Abs. 3, 8, 9 und 10 sowie des § 13 Abs. 2 letzter Satz sinngemäß.
+\item Im Übrigen gelten für die RechnungsprüferInnen die Bestimmungen des § 11 Abs. 3, 8, 9 und 10 sowie des § 13 Abs. 2 letzter Satz sinngemäß.
 \comment{Was heist das ? Vermutlich (aus dem orig. Vorlage) : "(3) Rechtsgeschäfte zwischen Rechnungsprüfern und Verein bedürfen der Genehmigung durch die Generalversammlung. Im Übrigen gelten für die Rechnungsprüfer die Bestimmungen des § 11 Abs. 8 bis 10 sinngemäß."}
 
 \end{enumerate}
